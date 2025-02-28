@@ -61,7 +61,16 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	<repositories>
+		<repository>
+			<id>spring-releases</id>
+			<url>https://repo.spring.io/release</url>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<url>https://repo.spring.io/snapshot</url>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
